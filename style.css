@@ -1,0 +1,216 @@
+/* GENERAL PAGE STYLING */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #1e293b;
+    color: white;
+    padding-bottom: 40px;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.profile-photo {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #cbd5e1;
+}
+
+
+/* GENERAL SECTIONS */
+
+main {
+    padding: 20px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+
+/* ABOUT SECTION */
+
+.about-section {
+    text-align: center;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+
+/* INTERESTS */
+
+.interests {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.interest-card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.interest-card h3 {
+    color: #1e293b;
+}
+
+.interest-card p {
+    margin: 0;
+}
+
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    background-color: #1e293b;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* CONTACT */
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    color: #1e293b;
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px auto;
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .tagline {
+        font-size: 17px;
+    }
+
+}
