@@ -36,8 +36,8 @@ Software Development
 
 ### GitHub Pages
 
-The GitHub Pages link will be added after deployment.
+https://ngumifred47-cyber.github.io/fred-portfolio/
 
 ### Vercel
 
-The Vercel link will be added after deployment.
+https://fred-portfolio-alpha.vercel.app/
