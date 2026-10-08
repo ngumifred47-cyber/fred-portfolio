@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Fred Karah | Projects</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Header -->
     <header class="hero">
 
         <nav>
@@ -24,45 +27,246 @@
         </nav>
 
         <div class="hero-content">
+
             <h1>My Projects</h1>
 
             <p class="tagline">
                 Projects and practical work I am developing as a Software Development student.
             </p>
+
         </div>
 
     </header>
 
+
     <main>
 
+        <!-- Projects Section -->
         <section class="projects-section">
 
             <h2>My Projects</h2>
 
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+
+                <button onclick="filterProjects('all')">
+                    ALL
+                </button>
+
+                <button onclick="filterProjects('web')">
+                    WEB
+                </button>
+
+                <button onclick="filterProjects('football')">
+                    FOOTBALL
+                </button>
+
+                <button onclick="filterProjects('coursework')">
+                    COURSEWORK
+                </button>
+
+            </div>
+
+
+            <!-- Project Cards -->
             <div class="interests">
 
-                <div class="interest-card">
-                    <h3>Personal Portfolio</h3>
+                <!-- Project 1 -->
+                <div class="interest-card football">
+
+                    <h3>Northlands FC Website</h3>
+
                     <p>
-                        A personal website created using HTML and CSS
-                        to showcase my skills, interests and background.
+                        A football project created to showcase Northlands FC,
+                        including match information, team content and matchday graphics.
                     </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML, CSS, JavaScript
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project
+                    </a>
+
                 </div>
 
-                <div class="interest-card">
-                    <h3>Web Development</h3>
+
+                <!-- Project 2 -->
+                <div class="interest-card web">
+
+                    <h3>Fred Karah Personal Portfolio</h3>
+
                     <p>
-                        Practical web development exercises that help
-                        me improve my HTML and CSS skills.
+                        A personal portfolio website that showcases my background,
+                        skills, interests and projects as a Software Development student.
                     </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML5, CSS3, JavaScript
+                    </p>
+
+                    <a href="index.html" class="project-link">
+                        View Project
+                    </a>
+
                 </div>
 
-                <div class="interest-card">
-                    <h3>Future Projects</h3>
+
+                <!-- Project 3 -->
+                <div class="interest-card coursework">
+
+                    <h3>Web Development Coursework</h3>
+
                     <p>
-                        I plan to develop more software projects as I
-                        continue learning programming and technology.
+                        Practical coursework focused on developing websites and
+                        improving my understanding of HTML, CSS and web technologies.
                     </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML5, CSS3
+                    </p>
+
+                    <a href="#" class="project-link">
+                        Coming Soon
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <!-- HTML -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>HTML5</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level html"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- CSS -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>CSS3</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- JavaScript -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level javascript"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- Git & GitHub -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>Git & GitHub</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level git"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- Responsive Web Design -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>Responsive Web Design</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level responsive"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Services Section -->
+        <section class="services-section">
+
+            <h2>Services I Can Offer</h2>
+
+            <div class="services-container">
+
+                <div class="service-card">
+
+                    <h3>Basic Website Design</h3>
+
+                    <p>
+                        I can create simple and responsive websites
+                        using HTML and CSS.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Website Styling</h3>
+
+                    <p>
+                        I can improve the appearance and layout of websites
+                        using CSS and responsive design techniques.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Basic Web Development</h3>
+
+                    <p>
+                        I can build simple interactive web pages using
+                        HTML, CSS and JavaScript.
+                    </p>
+
                 </div>
 
             </div>
@@ -71,9 +275,19 @@
 
     </main>
 
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Fred Karah. All rights reserved.</p>
+
+        <p>
+            &copy; 2026 Fred Karah. All rights reserved.
+        </p>
+
     </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 
