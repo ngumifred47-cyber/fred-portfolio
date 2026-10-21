@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fred Karah | Projects</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="hero">
+
+        <nav>
+            <div class="logo">FRED KARAH</div>
+
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#contact">CONTACT</a>
+                <a href="projects.html">PROJECTS</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+
+            <h1>My Projects</h1>
+
+            <p class="tagline">
+                Projects and practical work I am developing as a Software Development student.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Live GitHub API Section -->
+        <section class="github-section" aria-labelledby="github-heading">
+            <h2 id="github-heading">My GitHub Repositories</h2>
+            <p class="section-intro">Live projects fetched directly from my public GitHub profile.</p>
+            <p id="githubStatus" class="api-status" role="status" aria-live="polite">Loading GitHub repositories...</p>
+            <div id="githubRepositories" class="repository-grid"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+
+            <h2>Featured Projects</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+
+                <button onclick="filterProjects('all')">
+                    ALL
+                </button>
+
+                <button onclick="filterProjects('web')">
+                    WEB
+                </button>
+
+                <button onclick="filterProjects('football')">
+                    FOOTBALL
+                </button>
+
+                <button onclick="filterProjects('coursework')">
+                    COURSEWORK
+                </button>
+
+            </div>
+
+
+            <!-- Project Cards -->
+            <div class="interests">
+
+                <!-- Project 1 -->
+                <div class="interest-card football">
+
+                    <h3>Northlands FC Website</h3>
+
+                    <p>
+                        A football project created to showcase Northlands FC,
+                        including match information, team content and matchday graphics.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML, CSS, JavaScript
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project
+                    </a>
+
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="interest-card web">
+
+                    <h3>Fred Karah Personal Portfolio</h3>
+
+                    <p>
+                        A personal portfolio website that showcases my background,
+                        skills, interests and projects as a Software Development student.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML5, CSS3, JavaScript
+                    </p>
+
+                    <a href="index.html" class="project-link">
+                        View Project
+                    </a>
+
+                </div>
+
+
+                <!-- Project 3 -->
+                <div class="interest-card coursework">
+
+                    <h3>Web Development Coursework</h3>
+
+                    <p>
+                        Practical coursework focused on developing websites and
+                        improving my understanding of HTML, CSS and web technologies.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML5, CSS3
+                    </p>
+
+                    <a href="#" class="project-link">
+                        Coming Soon
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <!-- HTML -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>HTML5</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level html"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- CSS -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>CSS3</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- JavaScript -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level javascript"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- Git & GitHub -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>Git & GitHub</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level git"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- Responsive Web Design -->
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>Responsive Web Design</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-level responsive"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Services Section -->
+        <section class="services-section">
+
+            <h2>Services I Can Offer</h2>
+
+            <div class="services-container">
+
+                <div class="service-card">
+
+                    <h3>Basic Website Design</h3>
+
+                    <p>
+                        I can create simple and responsive websites
+                        using HTML and CSS.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Website Styling</h3>
+
+                    <p>
+                        I can improve the appearance and layout of websites
+                        using CSS and responsive design techniques.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Basic Web Development</h3>
+
+                    <p>
+                        I can build simple interactive web pages using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Fred Karah. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

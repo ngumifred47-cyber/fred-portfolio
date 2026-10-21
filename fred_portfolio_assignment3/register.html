@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KCA Registration</title>
+    </head>
+    <body>
+    <form action="/register" method="post">
+        <h1>KCA Student registration</h1>
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required
+            placeholder="Enter name">
+        </p> 
+        <p>
+            <label for="admno">Admission Number:</label>
+            <input type="text" id="admno" name="admno" required
+            placeholder="Enter your admission number">
+
+        </p>
+        <p>
+            <lebel for="email">email</lebel>
+            <input type="text" id="email" name="email" required
+            placeholder="Enter your email">
+        </p>
+        <p>
+            <label for="phone">phone</label>
+            <input type="phone" id="phone" name="phone"
+            required placeholder="phone number">
+        </p>
+        <p>
+            <label for="Date Of Birth">D.O.B</label>
+            <input type="date" id="D.O.B" name="Date Of Birth"
+            required placeholder="D.O.B">
+        </p>
+        <p>
+            <label for="color">Favourite colour</label>
+            <input type="color" id="colour" name="Favourite Colour"
+            required placeholder="colour">
+        </p>
+        <p>
+            <label for="satisfaction">satisfaction</label>
+            <input type="range" id="satisfaction" name="satisfaction">
+        </p>
+        <p>
+            <label for="Mode Of Study">mode of study</label>
+            <input type="checkbox">Full Time
+            <input type="checkbox">Part Time
+            <input type="checkbox">Distance Learning
+
+        </p>
+        <p>
+            <label for="gender">gender</label>
+            <input type="radio">Male
+            <input type="radio">Female
+            <input type="radio">Prefer Not To Say
+
+        </p>
+        <p>
+            <label for="password">password</label>
+            <input type="text" id="password" name="password"required
+            placeholder="Enter your password">
+        </p>
+        <p>
+            <fieldset>
+                <legend>Year Of Study</legend>
+                <label><input type="radio" name="year" value="1">Year 1</label>
+                <label><input type="radio" name="Year" value="2">Year 2</label>
+                <label><input type="radio" name="Year" value="3">Year 3</label>
+                <label><input type="radio" name="Year" value="4">Year 4</label>
+            </fieldset>
+        </p>
+        <p>
+        <fieldset>
+             <legend>Year Of Study</legend>
+                <label><input type="checkbox" name="Web" value="1">Web</label>
+                <label><input type="checkbox" name="Mobile" value="2">Mobile</label>
+                <label><input type="checkbox" name="Data" value="3">Data</label>
+                <label><input type="checkbox" name="Security" value="4">Security</label>
+        </fieldset>
+        </p>
+        <p>
+           <input type="checkbox">I Agree To The Terms
+        </p>
+        <p>
+            <label for="programme">programme</label>
+            <select id="programe" name="programme">
+                <option value="">Select a programme</option>
+                <option value="web">Web Development</option>
+                <option value="mobile">Mobile Development</option>
+                <option value="data">Data Science</option>
+                <option value="security">Cyber Security</option>
+            </select>
+        </p>
+        <p>
+            <label for="county">county</label>
+            <select id="county" name="county" required>
+                <option value="">Select a county</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="kisumu">Kisumu</option>
+                <option value="nairobi">Nairobi</option>
+                <option value="nakuru">Nakuru</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Register</button>
+        </p>
+    </form> 
+    </body>
+</html>
